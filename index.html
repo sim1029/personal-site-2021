@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/mainStyles.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+
+    <div class="container mt-3">
+        <h6 class="text-secondary" id="date"></h6>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <h2 class="text-black">Simon Says Hello</h2>
+            </div>
+            <div class="col-3">
+                <div class="float-end">
+                    <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" style="height: 2rem; display: block; padding: 0">
+                        <img src="./img/Home/profilepic2021.JPG" class="rounded-circle img-fluid float-end" alt="Profile Image" style="height: 2rem; display: block;">
+                    </button>
+    
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body small">
+                            ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+    <script src="./js/Bootstrap/bootstrap.min.js"></script>
+    <script src="./js/mainFunctions.js"></script>
 </body>
 </html>
