@@ -26,8 +26,8 @@
       </div>
       
       <div class="col-md-4 col" >
-        <div class="float-end">
-          <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" style="height: 3rem; display: block; padding: 0">
+        <div class="float-end shadow rounded-circle">
+          <button class="btn rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" style="height: 3rem; display: block; padding: 0">
             <img src="./img/Home/profilepic2021.JPG" class="rounded-circle img-fluid float-end" alt="Profile Image" style="height: 3rem; display: block;">
           </button>
 
@@ -46,23 +46,23 @@
     
     <div class="row justify-content-center my-4">
 
-      <div class="col-lg-4 col-xs-12 m-0 p-0 d-flex justify-content-center"> 
-        <!-- App Modal Type #1 -->
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal-1">
-            <div class="card m-0 p-0 shadow-lg" style="width: 18rem; border-radius: 1rem !important; height: 27rem">
-              <img src="/resources/pizzaBuddy.png" class="card-img-top" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;" alt="...">
-              <div class="card-body">
-                <div class="container p-0">
-                  <p class="text-start fs-6 my-0 text-secondary fw-normal">FEATURED PROJECT</p>
-                  <p class="text-start fs-3 my-0 fw-bold">PizzaBuddy</p>
-                  <p class="text-start my-0 fw-light text-secondary" style="font-size: 0.8rem !important;">iOS app to assist pizza drivers with their job</p>
-                </div>
-              </div>
+      <div class="col-lg-4 col-xs-12 m-0 p-0 d-flex justify-content-center">
+        <!-- App Modal Type #2 -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#catpitalOne">
+          <div class="card m-0 p-0 shadow-lg d-flex justify-content-center" style="width: 18rem; height: 27rem; border-radius: 1rem; background-color: #FF7272;">
+            <img src="/resources/catbug4.png" class="card-img" style="width: 18rem; border-radius: 1rem;" alt="...">
+            <div class="card-img-overlay d-flex flex-column align-items-start">
+                <p class="text-start fs-6 text-light text-opacity-75 my-0">NOW TRENDING</p>
+                <p class="text-start fs-3 fw-bold text-white my-0">Catpital-One</p>
             </div>
+            <div class="card-img-overlay d-flex flex-column align-items-start justify-content-end">
+              <p class="text-start my-0 text-light" style="font-size: 0.8rem !important;">Learn how to invest money in a fun and friendly environment.</p>
+            </div>
+          </div>
         </button>
-    
-        <!--GET CONNECTED Modal -->
-        <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+        <!--Catpital One Modal -->
+        <div class="modal fade" id="catpitalOne" tabindex="-1" aria-labelledby="catpitalOne" aria-hidden="true">
           <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
               <div class="modal-header">
@@ -81,51 +81,45 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-xs-12 m-0 p-0 d-flex justify-content-center">
-        <!-- App Modal Type #2 -->
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
-          <div class="card m-0 p-0 shadow-lg" style="width: 18rem; height: 27rem; border-radius: 1rem;">
-            <img src="/resources/pizzabuddy.png" class="card-img-top;" style="height: 27rem; border-radius: 1rem;" alt="...">
-          </div>
+      <div class="col-lg-4 col-xs-12 m-0 p-0 d-flex justify-content-center"> 
+        <!-- App Modal Type #1 PizzaBuddy -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#pizzaBuddy">
+            <div class="card m-0 p-0 shadow-lg" style="width: 18rem; border-radius: 1rem !important; height: 27rem">
+              <img src="/resources/pizzaBuddy.png" class="card-img-top" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;" alt="...">
+              <div class="card-body">
+                <div class="container p-0">
+                  <p class="text-start fs-6 my-0 text-secondary fw-normal">FEATURED PROJECT</p>
+                  <p class="text-start fs-3 my-0 fw-bold">PizzaBuddy</p>
+                  <p class="text-start my-0 fw-light text-secondary" style="font-size: 0.8rem !important;">iOS app to assist pizza drivers with their job</p>
+                </div>
+              </div>
+            </div>
         </button>
+    
+        <!--Pizza Buddy Modal -->
+        <div class="modal fade" id="pizzaBuddy" tabindex="-1" aria-labelledby="pizzaBuddy" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
 
     <div class="row justify-content-center my-4">
-      <div class="col-lg-4 col-xs-12 m-0 p-0 d-flex justify-content-center"> 
-        <!-- App Modal Type #1 -->
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
-          <div class="card m-0 p-0 shadow-lg" style="width: 18rem; border-radius: 1rem !important; height: 27rem">
-            <img src="/resources/pizzaBuddy.png" class="card-img-top" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;" alt="...">
-            <div class="card-body">
-              <div class="container p-0">
-                <p class="text-start fs-6 my-0 text-secondary fw-normal">FEATURED PROJECT</p>
-                <p class="text-start fs-3 my-0 fw-bold">PizzaBuddy</p>
-                <p class="text-start my-0 fw-light text-secondary" style="font-size: 0.8rem !important;">iOS app to assist pizza drivers with their job</p>
-              </div>
-            </div>
-          </div>
-        </button>
-    
-      </div>
-
-      <div class="col-lg-4 col-xs-12 m-0 p-0 d-flex justify-content-center"> 
-        <!-- App Modal Type #1 -->
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
-          <div class="card m-0 p-0 shadow-lg" style="width: 18rem; border-radius: 1rem !important; height: 27rem">
-            <img src="/resources/pizzaBuddy.png" class="card-img-top" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;" alt="...">
-            <div class="card-body">
-              <div class="container p-0">
-                <p class="text-start fs-6 my-0 text-secondary fw-normal">FEATURED PROJECT</p>
-                <p class="text-start fs-3 my-0 fw-bold">PizzaBuddy</p>
-                <p class="text-start my-0 fw-light text-secondary" style="font-size: 0.8rem !important;">iOS app to assist pizza drivers with their job</p>
-              </div>
-            </div>
-          </div>
-        </button>
-    
-      </div>
+      
     </div>
     
   </div>
