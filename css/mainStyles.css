@@ -1,3 +1,8 @@
 body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu !important;
 }
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }

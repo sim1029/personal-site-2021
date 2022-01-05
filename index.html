@@ -9,77 +9,126 @@
     <link rel="stylesheet" href="./css/mainStyles.css">
 </head>
 <body>
-
-    <div class="container mt-3">
-        <h6 class="text-secondary" id="date"></h6>
+    
+  <div class="container"> 
+    <div class="row justify-content-center">
+      <div class="col-md-8" >
+        <div class="container mt-3 p-0" style>
+          <h6 class="text-secondary" id="date"></h6>
+        </div> 
+      </div> 
     </div>
+    
 
-    <div class="container">
-        <div class="row">
-            <div class="col-9">
-                <h2 class="text-black">Simon Says Hello</h2>
-            </div>
-            <div class="col-3">
-                <div class="float-end">
-                    <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" style="height: 2rem; display: block; padding: 0">
-                        <img src="./img/Home/profilepic2021.JPG" class="rounded-circle img-fluid float-end" alt="Profile Image" style="height: 2rem; display: block;">
-                    </button>
+    <div class="row justify-content-center">
+      <div class="col-md-4 col" >
+        <h2 class="text-black">Simon Says Hello</h2>
+      </div>
+      
+      <div class="col-md-4 col" >
+        <div class="float-end">
+          <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" style="height: 3rem; display: block; padding: 0">
+            <img src="./img/Home/profilepic2021.JPG" class="rounded-circle img-fluid float-end" alt="Profile Image" style="height: 3rem; display: block;">
+          </button>
 
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body small">
-                            ...
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-
-          <div class="col-3 m-0 p-0"> 
-            <!-- Button trigger  GET CONNETED modal-->
-            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              <div class="card m-0 p-0" style="width: 18rem;">
-                <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ed6636cdd5d320006caf841%2FThe-Blackout-Tuesday-movement-is-causing-Instagram-feeds-to-turn-black-%2F960x0.jpg%3Ffit%3Dscale" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <div class="container p-0">
-                    <p class="text-start fs-6 my-0 text-secondary">PERSONAL PROJECTS</p>
-                    <p class="text-start fs-3 my-0 text-black">Hackathon Entries</p>
-                    <p class="text-start fs-6 my-0 text-secondary">Dream, Build, Present</p>
-                  </div>
-                </div>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+              <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
-            </button>
-        
-            <!--GET CONNECTED Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    ...
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                  </div>
+              <div class="offcanvas-body small">
+                  ...
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row justify-content-center my-4">
+
+      <div class="col-lg-4 col-xs-12 m-0 p-0 d-flex justify-content-center"> 
+        <!-- App Modal Type #1 -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal-1">
+            <div class="card m-0 p-0 shadow-lg" style="width: 18rem; border-radius: 1rem !important; height: 27rem">
+              <img src="/resources/pizzaBuddy.png" class="card-img-top" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;" alt="...">
+              <div class="card-body">
+                <div class="container p-0">
+                  <p class="text-start fs-6 my-0 text-secondary fw-normal">FEATURED PROJECT</p>
+                  <p class="text-start fs-3 my-0 fw-bold">PizzaBuddy</p>
+                  <p class="text-start my-0 fw-light text-secondary" style="font-size: 0.8rem !important;">iOS app to assist pizza drivers with their job</p>
                 </div>
               </div>
             </div>
+        </button>
+    
+        <!--GET CONNECTED Modal -->
+        <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
           </div>
-
-          <div class="col-9">
-
-          </div>
-
         </div>
+      </div>
+
+      <div class="col-lg-4 col-xs-12 m-0 p-0 d-flex justify-content-center">
+        <!-- App Modal Type #2 -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
+          <div class="card m-0 p-0 shadow-lg" style="width: 18rem; height: 27rem; border-radius: 1rem;">
+            <img src="/resources/pizzabuddy.png" class="card-img-top;" style="height: 27rem; border-radius: 1rem;" alt="...">
+          </div>
+        </button>
+      </div>
+
     </div>
+
+    <div class="row justify-content-center my-4">
+      <div class="col-lg-4 col-xs-12 m-0 p-0 d-flex justify-content-center"> 
+        <!-- App Modal Type #1 -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
+          <div class="card m-0 p-0 shadow-lg" style="width: 18rem; border-radius: 1rem !important; height: 27rem">
+            <img src="/resources/pizzaBuddy.png" class="card-img-top" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;" alt="...">
+            <div class="card-body">
+              <div class="container p-0">
+                <p class="text-start fs-6 my-0 text-secondary fw-normal">FEATURED PROJECT</p>
+                <p class="text-start fs-3 my-0 fw-bold">PizzaBuddy</p>
+                <p class="text-start my-0 fw-light text-secondary" style="font-size: 0.8rem !important;">iOS app to assist pizza drivers with their job</p>
+              </div>
+            </div>
+          </div>
+        </button>
+    
+      </div>
+
+      <div class="col-lg-4 col-xs-12 m-0 p-0 d-flex justify-content-center"> 
+        <!-- App Modal Type #1 -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
+          <div class="card m-0 p-0 shadow-lg" style="width: 18rem; border-radius: 1rem !important; height: 27rem">
+            <img src="/resources/pizzaBuddy.png" class="card-img-top" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;" alt="...">
+            <div class="card-body">
+              <div class="container p-0">
+                <p class="text-start fs-6 my-0 text-secondary fw-normal">FEATURED PROJECT</p>
+                <p class="text-start fs-3 my-0 fw-bold">PizzaBuddy</p>
+                <p class="text-start my-0 fw-light text-secondary" style="font-size: 0.8rem !important;">iOS app to assist pizza drivers with their job</p>
+              </div>
+            </div>
+          </div>
+        </button>
+    
+      </div>
+    </div>
+    
+  </div>
 
     <script src="./js/Bootstrap/bootstrap.min.js"></script>
     <script src="./js/mainFunctions.js"></script>
