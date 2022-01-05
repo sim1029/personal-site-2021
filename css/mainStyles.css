@@ -18,6 +18,10 @@ body {
     outline: none;
     box-shadow: none;
 }
+.btn-close:focus {
+    outline: none;
+    box-shadow: none;
+}
 .button-bouncy {
     transition: .2s ease-in-out 0s;
 }
