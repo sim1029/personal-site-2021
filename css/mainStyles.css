@@ -18,12 +18,7 @@ body {
     outline: none;
     box-shadow: none;
 }
-
-
 .button-bouncy {
-    animation: fadeInAnimation ease 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
     transition: .2s ease-in-out 0s;
 }
 .button-bouncy:hover{
@@ -36,4 +31,9 @@ body {
 .button-extra-bouncy:hover{
     cursor: pointer;
     transform: scale(0.9);
+}
+.zoom-on-load {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
