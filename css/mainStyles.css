@@ -14,11 +14,27 @@ body {
      }
 }
 
+.red-back {
+    background-color: #FF7272;
+}
+
 .app-background {
     background-color: #EAEAEA;
     border-radius: 1rem;
     height: 1.5rem;
     width: 3.5rem;
+}
+
+.modal-app-background {
+    background-color: #007AFE;
+    border-radius: 1.5rem;
+    height: 2rem;
+    width: 4rem;
+}
+
+.inline-link {
+    color: #007AFE;
+    text-decoration: none;
 }
 
 .btn:focus {
