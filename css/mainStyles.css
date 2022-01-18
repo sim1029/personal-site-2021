@@ -18,6 +18,10 @@ body {
     background-color: #FF7272;
 }
 
+.orange-back {
+    background-color: #FFA41B;
+}
+
 .app-background {
     background-color: #EAEAEA;
     border-radius: 1rem;
