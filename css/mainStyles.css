@@ -22,6 +22,10 @@ body {
     background-color: #FFA41B;
 }
 
+.gray-back {
+    background-color: #30475E;
+}
+
 .app-background {
     background-color: #EAEAEA;
     border-radius: 1rem;
