@@ -29,6 +29,13 @@ body {
     width: 3.5rem;
 }
 
+.app-background-lg {
+    background-color: #EAEAEA;
+    border-radius: 1.5rem;
+    height: 2rem;
+    width: 4.3rem;
+}
+
 .modal-app-background {
     background-color: #007AFE;
     border-radius: 1.5rem;
