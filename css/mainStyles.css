@@ -26,6 +26,14 @@ body {
     background-color: #30475E;
 }
 
+.pitt-back {
+    background-color: #003594;
+}
+
+.carbo-back {
+    background-color: #A9D4FF;
+}
+
 .app-background {
     background-color: #EAEAEA;
     border-radius: 1rem;
