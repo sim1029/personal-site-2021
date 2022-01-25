@@ -6,8 +6,6 @@
 
 🏙Pittsburgh native, with a passion for Software Engineering and teaching others.
 
-📚 Last year, I worked as a TA for Data Structures and Algorithms and am involved with the Computer Science Club. This summer, I worked a full time internship with Federated Hermes.
-
 💻 In the future I hope to work as a software engineer with a startup or a tech company with a diverse team and high pace work environment. 
 
 🎲 In my free time, I like to play poker, go to the gym, and run. Lately, I have been cooking and plan to try my hand at woodworking.
