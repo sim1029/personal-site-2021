@@ -34,6 +34,10 @@ body {
     background-color: #A9D4FF;
 }
 
+.black-back {
+    background-color: #121212;
+}
+
 .app-background {
     background-color: #EAEAEA;
     border-radius: 1rem;
